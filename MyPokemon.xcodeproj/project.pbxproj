@@ -8,22 +8,66 @@
 
 /* Begin PBXBuildFile section */
 		4CBB82E22D302F1D002177EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB82E12D302F1D002177EF /* AppDelegate.swift */; };
-		4CBB82E42D302F1D002177EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB82E32D302F1D002177EF /* SceneDelegate.swift */; };
-		4CBB82E62D302F1D002177EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB82E52D302F1D002177EF /* ViewController.swift */; };
-		4CBB82E92D302F1D002177EF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4CBB82E82D302F1D002177EF /* Base */; };
 		4CBB82EB2D302F1E002177EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CBB82EA2D302F1E002177EF /* Assets.xcassets */; };
 		4CBB82EE2D302F1E002177EF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4CBB82ED2D302F1E002177EF /* Base */; };
+		4CBB82F82D303209002177EF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB82F72D303209002177EF /* LoginView.swift */; };
+		4CBB82FA2D30411E002177EF /* LoginFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB82F92D30411E002177EF /* LoginFacade.swift */; };
+		4CBB82FC2D304D82002177EF /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB82FB2D304D82002177EF /* LoginModel.swift */; };
+		4CBB82FE2D304DB4002177EF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB82FD2D304DB4002177EF /* LoginViewModel.swift */; };
+		4CBB83012D304FDA002177EF /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB83002D304FDA002177EF /* RegisterView.swift */; };
+		4CBB83032D3051F2002177EF /* RegisterFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB83022D3051F2002177EF /* RegisterFacade.swift */; };
+		4CBB83062D30526A002177EF /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB83052D30526A002177EF /* Strings.swift */; };
+		4CBB83082D3056F1002177EF /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB83072D3056F1002177EF /* Loader.swift */; };
+		4CBB830A2D305AE2002177EF /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB83092D305AE2002177EF /* CustomAlertView.swift */; };
+		4CBB830C2D305EF7002177EF /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB830B2D305EF7002177EF /* AlertHelper.swift */; };
+		4CBB830E2D307E51002177EF /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB830D2D307E51002177EF /* RegisterModel.swift */; };
+		4CBB83102D307E7E002177EF /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB830F2D307E7E002177EF /* RegisterViewModel.swift */; };
+		4CBB83132D30898A002177EF /* InitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB83122D30898A002177EF /* InitView.swift */; };
+		4CBB83152D309068002177EF /* InitFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB83142D309068002177EF /* InitFacade.swift */; };
+		4CBB83172D30933B002177EF /* PokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB83162D30933A002177EF /* PokemonCell.swift */; };
+		4CBB83192D3093F1002177EF /* InitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB83182D3093F1002177EF /* InitModel.swift */; };
+		4CBB831B2D309650002177EF /* InitView+Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB831A2D309650002177EF /* InitView+Table.swift */; };
+		4CBB831D2D309754002177EF /* InitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB831C2D309754002177EF /* InitViewModel.swift */; };
+		4CBB83202D309D0A002177EF /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB831F2D309D0A002177EF /* Server.swift */; };
+		4CBB83222D30BA2E002177EF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB83212D30BA2E002177EF /* Constants.swift */; };
+		4CBB83252D32E8AE002177EF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB83242D32E8AD002177EF /* DetailView.swift */; };
+		4CBB83272D32E9C8002177EF /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB83262D32E9C8002177EF /* DetailModel.swift */; };
+		4CBB83292D32F77F002177EF /* DetailFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB83282D32F77F002177EF /* DetailFacade.swift */; };
+		4CBB832B2D330687002177EF /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB832A2D330687002177EF /* DetailViewModel.swift */; };
+		4CBB832D2D3310F1002177EF /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB832C2D3310F1002177EF /* ImageHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4CBB82DE2D302F1D002177EF /* MyPokemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPokemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CBB82E12D302F1D002177EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4CBB82E32D302F1D002177EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4CBB82E52D302F1D002177EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4CBB82E82D302F1D002177EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CBB82EA2D302F1E002177EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CBB82ED2D302F1E002177EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CBB82EF2D302F1E002177EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CBB82F72D303209002177EF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4CBB82F92D30411E002177EF /* LoginFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFacade.swift; sourceTree = "<group>"; };
+		4CBB82FB2D304D82002177EF /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		4CBB82FD2D304DB4002177EF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		4CBB83002D304FDA002177EF /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		4CBB83022D3051F2002177EF /* RegisterFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFacade.swift; sourceTree = "<group>"; };
+		4CBB83052D30526A002177EF /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		4CBB83072D3056F1002177EF /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		4CBB83092D305AE2002177EF /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		4CBB830B2D305EF7002177EF /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		4CBB830D2D307E51002177EF /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+		4CBB830F2D307E7E002177EF /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		4CBB83122D30898A002177EF /* InitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitView.swift; sourceTree = "<group>"; };
+		4CBB83142D309068002177EF /* InitFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitFacade.swift; sourceTree = "<group>"; };
+		4CBB83162D30933A002177EF /* PokemonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCell.swift; sourceTree = "<group>"; };
+		4CBB83182D3093F1002177EF /* InitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitModel.swift; sourceTree = "<group>"; };
+		4CBB831A2D309650002177EF /* InitView+Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InitView+Table.swift"; sourceTree = "<group>"; };
+		4CBB831C2D309754002177EF /* InitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitViewModel.swift; sourceTree = "<group>"; };
+		4CBB831F2D309D0A002177EF /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		4CBB83212D30BA2E002177EF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4CBB83242D32E8AD002177EF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		4CBB83262D32E9C8002177EF /* DetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModel.swift; sourceTree = "<group>"; };
+		4CBB83282D32F77F002177EF /* DetailFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFacade.swift; sourceTree = "<group>"; };
+		4CBB832A2D330687002177EF /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		4CBB832C2D3310F1002177EF /* ImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +100,93 @@
 		4CBB82E02D302F1D002177EF /* MyPokemon */ = {
 			isa = PBXGroup;
 			children = (
-				4CBB82E12D302F1D002177EF /* AppDelegate.swift */,
-				4CBB82E32D302F1D002177EF /* SceneDelegate.swift */,
-				4CBB82E52D302F1D002177EF /* ViewController.swift */,
-				4CBB82E72D302F1D002177EF /* Main.storyboard */,
+				4CBB83232D32E890002177EF /* DetailView */,
+				4CBB831E2D309CFE002177EF /* Connection */,
+				4CBB83112D308975002177EF /* InitView */,
+				4CBB83042D305260002177EF /* Commons */,
+				4CBB82FF2D304FC2002177EF /* RegisterView */,
+				4CBB82F62D3031E5002177EF /* Login */,
+				4CBB82F52D3031CE002177EF /* Delegate */,
 				4CBB82EA2D302F1E002177EF /* Assets.xcassets */,
 				4CBB82EC2D302F1E002177EF /* LaunchScreen.storyboard */,
 				4CBB82EF2D302F1E002177EF /* Info.plist */,
 			);
 			path = MyPokemon;
+			sourceTree = "<group>";
+		};
+		4CBB82F52D3031CE002177EF /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB82E12D302F1D002177EF /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		4CBB82F62D3031E5002177EF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB82F72D303209002177EF /* LoginView.swift */,
+				4CBB82F92D30411E002177EF /* LoginFacade.swift */,
+				4CBB82FB2D304D82002177EF /* LoginModel.swift */,
+				4CBB82FD2D304DB4002177EF /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4CBB82FF2D304FC2002177EF /* RegisterView */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB83002D304FDA002177EF /* RegisterView.swift */,
+				4CBB83022D3051F2002177EF /* RegisterFacade.swift */,
+				4CBB830D2D307E51002177EF /* RegisterModel.swift */,
+				4CBB830F2D307E7E002177EF /* RegisterViewModel.swift */,
+			);
+			path = RegisterView;
+			sourceTree = "<group>";
+		};
+		4CBB83042D305260002177EF /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB83052D30526A002177EF /* Strings.swift */,
+				4CBB83072D3056F1002177EF /* Loader.swift */,
+				4CBB83092D305AE2002177EF /* CustomAlertView.swift */,
+				4CBB830B2D305EF7002177EF /* AlertHelper.swift */,
+				4CBB83212D30BA2E002177EF /* Constants.swift */,
+				4CBB832C2D3310F1002177EF /* ImageHelper.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		4CBB83112D308975002177EF /* InitView */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB83122D30898A002177EF /* InitView.swift */,
+				4CBB83142D309068002177EF /* InitFacade.swift */,
+				4CBB83162D30933A002177EF /* PokemonCell.swift */,
+				4CBB83182D3093F1002177EF /* InitModel.swift */,
+				4CBB831A2D309650002177EF /* InitView+Table.swift */,
+				4CBB831C2D309754002177EF /* InitViewModel.swift */,
+			);
+			path = InitView;
+			sourceTree = "<group>";
+		};
+		4CBB831E2D309CFE002177EF /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB831F2D309D0A002177EF /* Server.swift */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		4CBB83232D32E890002177EF /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB83242D32E8AD002177EF /* DetailView.swift */,
+				4CBB83262D32E9C8002177EF /* DetailModel.swift */,
+				4CBB83282D32F77F002177EF /* DetailFacade.swift */,
+				4CBB832A2D330687002177EF /* DetailViewModel.swift */,
+			);
+			path = DetailView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +249,6 @@
 			files = (
 				4CBB82EB2D302F1E002177EF /* Assets.xcassets in Resources */,
 				4CBB82EE2D302F1E002177EF /* Base in Resources */,
-				4CBB82E92D302F1D002177EF /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +259,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CBB82E62D302F1D002177EF /* ViewController.swift in Sources */,
+				4CBB83132D30898A002177EF /* InitView.swift in Sources */,
+				4CBB83152D309068002177EF /* InitFacade.swift in Sources */,
+				4CBB830A2D305AE2002177EF /* CustomAlertView.swift in Sources */,
+				4CBB830C2D305EF7002177EF /* AlertHelper.swift in Sources */,
+				4CBB83292D32F77F002177EF /* DetailFacade.swift in Sources */,
+				4CBB83272D32E9C8002177EF /* DetailModel.swift in Sources */,
+				4CBB82F82D303209002177EF /* LoginView.swift in Sources */,
+				4CBB83252D32E8AE002177EF /* DetailView.swift in Sources */,
+				4CBB831B2D309650002177EF /* InitView+Table.swift in Sources */,
+				4CBB83172D30933B002177EF /* PokemonCell.swift in Sources */,
+				4CBB83032D3051F2002177EF /* RegisterFacade.swift in Sources */,
+				4CBB83062D30526A002177EF /* Strings.swift in Sources */,
+				4CBB83192D3093F1002177EF /* InitModel.swift in Sources */,
+				4CBB832B2D330687002177EF /* DetailViewModel.swift in Sources */,
+				4CBB83202D309D0A002177EF /* Server.swift in Sources */,
+				4CBB83222D30BA2E002177EF /* Constants.swift in Sources */,
+				4CBB82FC2D304D82002177EF /* LoginModel.swift in Sources */,
+				4CBB82FA2D30411E002177EF /* LoginFacade.swift in Sources */,
+				4CBB83012D304FDA002177EF /* RegisterView.swift in Sources */,
+				4CBB831D2D309754002177EF /* InitViewModel.swift in Sources */,
+				4CBB83102D307E7E002177EF /* RegisterViewModel.swift in Sources */,
+				4CBB832D2D3310F1002177EF /* ImageHelper.swift in Sources */,
+				4CBB830E2D307E51002177EF /* RegisterModel.swift in Sources */,
+				4CBB82FE2D304DB4002177EF /* LoginViewModel.swift in Sources */,
 				4CBB82E22D302F1D002177EF /* AppDelegate.swift in Sources */,
-				4CBB82E42D302F1D002177EF /* SceneDelegate.swift in Sources */,
+				4CBB83082D3056F1002177EF /* Loader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4CBB82E72D302F1D002177EF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CBB82E82D302F1D002177EF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4CBB82EC2D302F1E002177EF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,9 +433,9 @@
 				INFOPLIST_FILE = MyPokemon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +443,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zia.MyPokemon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,9 +463,9 @@
 				INFOPLIST_FILE = MyPokemon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +473,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zia.MyPokemon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
